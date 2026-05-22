@@ -3,7 +3,7 @@
   Naikkan angka versi di CACHE_NAME setiap kali upload perubahan ke GitHub.
   Contoh: ykpi-pwa-shell-v2 menjadi ykpi-pwa-shell-v3.
 */
-const CACHE_NAME = "ykpi-pwa-shell-v4";
+const CACHE_NAME = "ykpi-pwa-shell-v5";
 
 const STATIC_ASSETS = [
   "./",
