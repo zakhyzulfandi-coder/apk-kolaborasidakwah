@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#0F7E82" />
   <meta name="background-color" content="#F4FBFC" />
   <meta name="description" content="Aplikasi Portal Donasi YKPI" />
-  <meta http-equiv="Permissions-Policy" content="camera=(self), geolocation=(self), clipboard-read=(self), clipboard-write=(self)" />
+  <meta http-equiv="Permissions-Policy" content="camera=(self https://script.google.com https://script.googleusercontent.com); geolocation=(self https://script.google.com https://script.googleusercontent.com); clipboard-read=(self https://script.google.com https://script.googleusercontent.com); clipboard-write=(self https://script.google.com https://script.googleusercontent.com)" />
 
   <title>YKPI Portal Donasi</title>
 
@@ -420,7 +420,7 @@
         </div>
       </div>
 
-      <iframe id="appFrame" title="YKPI Portal Donasi" allow="camera; geolocation; clipboard-read; clipboard-write"></iframe>
+      <iframe id="appFrame" title="YKPI Portal Donasi" allow="camera *; microphone *; geolocation *; clipboard-read *; clipboard-write *; fullscreen *" allowfullscreen></iframe>
       <div id="networkBadge" class="network-badge">Koneksi internet terputus</div>
     </main>
   </div>
